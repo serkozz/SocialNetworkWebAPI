@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetworkWebAPITests", "tests\SocialNetworkWebAPITests.csproj", "{D309BB45-10E0-4014-87A5-8979A3A5A58D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetworkWebAPI", "src\SocialNetworkWebAPI.csproj", "{68834EB6-B595-48AC-8C70-0F8CB7DF3348}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D309BB45-10E0-4014-87A5-8979A3A5A58D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D309BB45-10E0-4014-87A5-8979A3A5A58D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D309BB45-10E0-4014-87A5-8979A3A5A58D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D309BB45-10E0-4014-87A5-8979A3A5A58D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68834EB6-B595-48AC-8C70-0F8CB7DF3348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68834EB6-B595-48AC-8C70-0F8CB7DF3348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68834EB6-B595-48AC-8C70-0F8CB7DF3348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68834EB6-B595-48AC-8C70-0F8CB7DF3348}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

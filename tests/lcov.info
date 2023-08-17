@@ -1,0 +1,2639 @@
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Utility\Exceptions.cs
+FN:5,System.Void UserEmailDuplicateFoundException::.ctor(System.String)
+FNDA:3,System.Void UserEmailDuplicateFoundException::.ctor(System.String)
+DA:6,3
+FN:10,System.Void ProfileNameDuplicateFoundException::.ctor(System.String)
+FNDA:0,System.Void ProfileNameDuplicateFoundException::.ctor(System.String)
+DA:11,0
+FN:18,System.String SubscriptionDuplicateFoundException::CreateMessage(System.Collections.Generic.IEnumerable`1<Models.Subscription>)
+FNDA:0,System.String SubscriptionDuplicateFoundException::CreateMessage(System.Collections.Generic.IEnumerable`1<Models.Subscription>)
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+BRDA:22,220,1,0
+BRDA:22,220,0,0
+FN:15,System.Void SubscriptionDuplicateFoundException::.ctor(System.Collections.Generic.IEnumerable`1<Models.Subscription>)
+FNDA:0,System.Void SubscriptionDuplicateFoundException::.ctor(System.Collections.Generic.IEnumerable`1<Models.Subscription>)
+DA:16,0
+FN:34,System.String FriendshipDuplicateFoundException::CreateMessage(System.Collections.Generic.IEnumerable`1<Models.Friends>)
+FNDA:0,System.String FriendshipDuplicateFoundException::CreateMessage(System.Collections.Generic.IEnumerable`1<Models.Friends>)
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+BRDA:38,220,1,0
+BRDA:38,220,0,0
+FN:31,System.Void FriendshipDuplicateFoundException::.ctor(System.Collections.Generic.IEnumerable`1<Models.Friends>)
+FNDA:0,System.Void FriendshipDuplicateFoundException::.ctor(System.Collections.Generic.IEnumerable`1<Models.Friends>)
+DA:32,0
+LF:22
+LH:1
+BRF:4
+BRH:0
+FNF:6
+FNH:1
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Utility\JwtHelper.cs
+FN:24,System.String JwtHelper::CreateJWT(System.String,System.String,System.Int32)
+FNDA:8,System.String JwtHelper::CreateJWT(System.String,System.String,System.Int32)
+DA:25,8
+DA:26,8
+DA:27,8
+DA:28,8
+DA:29,8
+DA:30,8
+DA:31,8
+DA:32,8
+DA:33,8
+DA:34,8
+DA:35,8
+DA:36,8
+DA:37,8
+DA:38,8
+DA:39,8
+DA:40,8
+DA:41,8
+DA:42,8
+FN:44,System.ValueTuple`3<System.Boolean,System.Security.Claims.ClaimsPrincipal,Microsoft.IdentityModel.Tokens.SecurityToken> JwtHelper::ValidateJWT(System.String)
+FNDA:0,System.ValueTuple`3<System.Boolean,System.Security.Claims.ClaimsPrincipal,Microsoft.IdentityModel.Tokens.SecurityToken> JwtHelper::ValidateJWT(System.String)
+DA:45,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:51,0
+DA:52,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:59,0
+FN:61,Microsoft.IdentityModel.Tokens.TokenValidationParameters JwtHelper::GetDefaultValidationParameters()
+FNDA:0,Microsoft.IdentityModel.Tokens.TokenValidationParameters JwtHelper::GetDefaultValidationParameters()
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+FN:12,System.Void JwtHelper::.cctor()
+FNDA:1,System.Void JwtHelper::.cctor()
+DA:13,1
+DA:14,1
+DA:15,1
+DA:16,1
+DA:17,1
+DA:18,1
+LF:46
+LH:24
+BRF:0
+BRH:0
+FNF:4
+FNH:2
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\System.Text.RegularExpressions.Generator\System.Text.RegularExpressions.Generator.RegexGenerator\RegexGenerator.g.cs
+FN:101,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsLetter_0::.ctor()
+FNDA:1,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsLetter_0::.ctor()
+DA:102,1
+DA:103,1
+DA:104,1
+DA:105,1
+DA:106,1
+DA:107,1
+DA:108,1
+DA:109,1
+DA:110,1
+FN:98,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsLetter_0::.cctor()
+FNDA:1,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsLetter_0::.cctor()
+DA:99,1
+FN:115,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsLetter_0/RunnerFactory::CreateInstance()
+FNDA:1,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsLetter_0/RunnerFactory::CreateInstance()
+DA:116,1
+FN:123,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsLetter_0/RunnerFactory/Runner::Scan(System.ReadOnlySpan`1<System.Char>)
+FNDA:7,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsLetter_0/RunnerFactory/Runner::Scan(System.ReadOnlySpan`1<System.Char>)
+DA:124,7
+DA:125,7
+DA:126,6
+DA:128,6
+DA:129,6
+DA:130,6
+DA:131,6
+DA:132,7
+BRDA:125,10,0,6
+BRDA:125,10,1,7
+FN:137,System.Boolean System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsLetter_0/RunnerFactory/Runner::TryFindNextPossibleStartingPosition(System.ReadOnlySpan`1<System.Char>)
+FNDA:7,System.Boolean System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsLetter_0/RunnerFactory/Runner::TryFindNextPossibleStartingPosition(System.ReadOnlySpan`1<System.Char>)
+DA:138,7
+DA:139,7
+DA:143,7
+DA:144,7
+DA:147,7
+DA:148,40
+DA:149,19
+DA:150,19
+DA:151,6
+DA:152,6
+DA:153,6
+DA:155,13
+DA:156,1
+DA:159,1
+DA:160,1
+DA:161,7
+BRDA:143,20,0,7
+BRDA:148,140,1,19
+BRDA:150,55,0,0
+BRDA:150,55,1,19
+BRDA:150,100,0,6
+BRDA:150,100,1,13
+BRDA:148,140,0,1
+BRDA:143,20,1,1
+FN:174,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsNumber_1::.ctor()
+FNDA:1,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsNumber_1::.ctor()
+DA:175,1
+DA:176,1
+DA:177,1
+DA:178,1
+DA:179,1
+DA:180,1
+DA:181,1
+DA:182,1
+DA:183,1
+FN:171,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsNumber_1::.cctor()
+FNDA:1,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsNumber_1::.cctor()
+DA:172,1
+FN:188,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsNumber_1/RunnerFactory::CreateInstance()
+FNDA:1,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsNumber_1/RunnerFactory::CreateInstance()
+DA:189,1
+FN:196,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsNumber_1/RunnerFactory/Runner::Scan(System.ReadOnlySpan`1<System.Char>)
+FNDA:7,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsNumber_1/RunnerFactory/Runner::Scan(System.ReadOnlySpan`1<System.Char>)
+DA:197,7
+DA:198,7
+DA:199,6
+DA:201,6
+DA:202,6
+DA:203,6
+DA:204,6
+DA:205,7
+BRDA:198,10,0,6
+BRDA:198,10,1,7
+FN:210,System.Boolean System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsNumber_1/RunnerFactory/Runner::TryFindNextPossibleStartingPosition(System.ReadOnlySpan`1<System.Char>)
+FNDA:7,System.Boolean System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsNumber_1/RunnerFactory/Runner::TryFindNextPossibleStartingPosition(System.ReadOnlySpan`1<System.Char>)
+DA:211,7
+DA:212,7
+DA:215,7
+DA:216,7
+DA:219,7
+DA:220,142
+DA:221,70
+DA:222,70
+DA:223,6
+DA:224,6
+DA:225,6
+DA:227,64
+DA:228,1
+DA:231,1
+DA:232,1
+DA:233,7
+BRDA:215,20,0,7
+BRDA:220,91,1,70
+BRDA:222,55,0,6
+BRDA:222,55,1,64
+BRDA:220,91,0,1
+BRDA:215,20,1,1
+FN:246,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsSpecialCharacter_2::.ctor()
+FNDA:1,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsSpecialCharacter_2::.ctor()
+DA:247,1
+DA:248,1
+DA:249,1
+DA:250,1
+DA:251,1
+DA:252,1
+DA:253,1
+DA:254,1
+DA:255,1
+FN:243,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsSpecialCharacter_2::.cctor()
+FNDA:1,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsSpecialCharacter_2::.cctor()
+DA:244,1
+FN:260,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsSpecialCharacter_2/RunnerFactory::CreateInstance()
+FNDA:1,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsSpecialCharacter_2/RunnerFactory::CreateInstance()
+DA:261,1
+FN:268,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsSpecialCharacter_2/RunnerFactory/Runner::Scan(System.ReadOnlySpan`1<System.Char>)
+FNDA:7,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsSpecialCharacter_2/RunnerFactory/Runner::Scan(System.ReadOnlySpan`1<System.Char>)
+DA:269,7
+DA:270,7
+DA:271,6
+DA:273,6
+DA:274,6
+DA:275,6
+DA:276,6
+DA:277,7
+BRDA:270,10,0,6
+BRDA:270,10,1,7
+FN:282,System.Boolean System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsSpecialCharacter_2/RunnerFactory/Runner::TryFindNextPossibleStartingPosition(System.ReadOnlySpan`1<System.Char>)
+FNDA:7,System.Boolean System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsSpecialCharacter_2/RunnerFactory/Runner::TryFindNextPossibleStartingPosition(System.ReadOnlySpan`1<System.Char>)
+DA:283,7
+DA:284,7
+DA:288,7
+DA:289,7
+DA:292,7
+DA:293,132
+DA:294,65
+DA:295,65
+DA:296,6
+DA:297,6
+DA:298,6
+DA:300,59
+DA:301,1
+DA:304,1
+DA:305,1
+DA:306,7
+BRDA:288,20,0,7
+BRDA:293,127,1,65
+BRDA:295,52,0,65
+BRDA:295,52,1,0
+BRDA:295,87,0,6
+BRDA:295,87,1,59
+BRDA:293,127,0,1
+BRDA:288,20,1,1
+FN:319,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3::.ctor()
+FNDA:1,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3::.ctor()
+DA:320,1
+DA:321,1
+DA:322,1
+DA:323,1
+DA:324,1
+DA:325,1
+DA:326,1
+DA:327,1
+DA:328,1
+FN:316,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3::.cctor()
+FNDA:1,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3::.cctor()
+DA:317,1
+FN:333,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3/RunnerFactory::CreateInstance()
+FNDA:2,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3/RunnerFactory::CreateInstance()
+DA:334,2
+FN:341,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3/RunnerFactory/Runner::Scan(System.ReadOnlySpan`1<System.Char>)
+FNDA:18,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3/RunnerFactory/Runner::Scan(System.ReadOnlySpan`1<System.Char>)
+DA:342,18
+DA:344,22
+DA:345,22
+DA:346,22
+DA:347,4
+DA:348,4
+DA:349,4
+DA:350,0
+DA:351,0
+DA:352,0
+DA:353,4
+DA:354,18
+BRDA:344,78,1,4
+BRDA:349,25,0,0
+BRDA:349,25,1,4
+BRDA:344,44,0,18
+BRDA:344,53,0,4
+BRDA:344,44,1,18
+BRDA:344,53,1,18
+BRDA:344,78,0,18
+FN:359,System.Boolean System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3/RunnerFactory/Runner::TryFindNextPossibleStartingPosition(System.ReadOnlySpan`1<System.Char>)
+FNDA:22,System.Boolean System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3/RunnerFactory/Runner::TryFindNextPossibleStartingPosition(System.ReadOnlySpan`1<System.Char>)
+DA:360,22
+DA:361,22
+DA:364,22
+DA:365,18
+DA:368,18
+DA:369,36
+DA:370,18
+DA:371,18
+DA:372,18
+DA:373,18
+DA:374,18
+DA:376,0
+DA:377,0
+DA:380,4
+DA:381,4
+DA:382,22
+BRDA:364,25,0,18
+BRDA:369,96,1,18
+BRDA:371,60,0,18
+BRDA:371,60,1,0
+BRDA:369,96,0,0
+BRDA:364,25,1,4
+FN:387,System.Boolean System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3/RunnerFactory/Runner::TryMatchAtCurrentPosition(System.ReadOnlySpan`1<System.Char>)
+FNDA:18,System.Boolean System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3/RunnerFactory/Runner::TryMatchAtCurrentPosition(System.ReadOnlySpan`1<System.Char>)
+DA:388,18
+DA:389,18
+DA:390,18
+DA:391,18
+DA:392,18
+DA:393,18
+DA:394,36
+DA:395,36
+DA:396,36
+DA:397,18
+DA:398,18
+DA:399,18
+DA:400,18
+DA:402,18
+DA:406,18
+DA:408,18
+DA:409,186
+DA:410,168
+DA:411,168
+DA:412,168
+DA:414,18
+DA:415,0
+DA:416,0
+DA:417,0
+DA:420,18
+DA:421,18
+DA:423,18
+DA:424,18
+DA:425,18
+DA:427,45
+DA:428,45
+DA:430,45
+DA:431,0
+DA:432,0
+DA:433,0
+DA:435,45
+DA:436,4
+DA:437,4
+DA:438,4
+DA:440,41
+DA:441,41
+DA:443,59
+DA:444,59
+DA:448,59
+DA:449,18
+DA:450,18
+DA:451,18
+DA:455,59
+DA:457,63
+DA:458,63
+DA:460,63
+DA:463,63
+DA:464,63
+DA:467,63
+DA:468,59
+DA:469,59
+DA:473,4
+DA:474,4
+DA:475,4
+DA:476,4
+DA:477,13
+DA:478,9
+DA:479,9
+DA:480,9
+DA:482,4
+DA:483,0
+DA:484,0
+DA:487,4
+DA:488,4
+DA:489,4
+DA:491,4
+DA:492,4
+DA:496,4
+DA:499,108
+DA:500,108
+DA:501,45
+DA:503,45
+DA:505,63
+DA:506,63
+DA:507,63
+DA:508,126
+DA:512,63
+DA:513,49
+DA:514,49
+DA:519,14
+DA:520,14
+DA:521,14
+DA:523,14
+DA:524,70
+DA:525,56
+DA:526,56
+DA:527,56
+DA:529,14
+DA:530,0
+DA:531,0
+DA:534,14
+DA:535,14
+DA:537,14
+DA:538,14
+DA:539,14
+DA:541,0
+DA:542,0
+DA:544,0
+DA:545,0
+DA:546,0
+DA:547,0
+DA:549,0
+DA:550,0
+DA:551,0
+DA:553,0
+DA:554,0
+DA:556,14
+DA:557,14
+DA:562,14
+DA:564,28
+DA:565,28
+DA:567,28
+DA:570,28
+DA:571,28
+DA:574,28
+DA:575,14
+DA:576,14
+DA:580,14
+DA:581,14
+DA:582,14
+DA:583,14
+DA:584,42
+DA:585,28
+DA:586,28
+DA:587,28
+DA:589,14
+DA:590,0
+DA:591,0
+DA:594,14
+DA:595,14
+DA:596,14
+DA:598,14
+DA:599,14
+DA:603,14
+DA:606,28
+DA:607,28
+DA:608,0
+DA:610,0
+DA:612,28
+DA:613,28
+DA:614,28
+DA:615,56
+DA:619,28
+DA:620,14
+DA:621,14
+DA:626,14
+DA:627,14
+DA:628,14
+DA:630,14
+DA:631,42
+DA:632,28
+DA:633,28
+DA:634,28
+DA:636,14
+DA:637,0
+DA:638,0
+DA:641,14
+DA:642,14
+DA:644,14
+DA:645,14
+DA:646,14
+DA:648,0
+DA:649,0
+DA:651,0
+DA:652,0
+DA:653,0
+DA:654,0
+DA:656,0
+DA:657,0
+DA:658,0
+DA:660,0
+DA:661,0
+DA:663,14
+DA:664,14
+DA:668,14
+DA:669,14
+DA:670,14
+DA:672,14
+DA:673,14
+DA:675,14
+DA:678,14
+DA:679,14
+DA:682,14
+DA:683,14
+DA:684,14
+DA:688,0
+DA:689,0
+DA:690,0
+DA:691,0
+DA:692,0
+DA:693,0
+DA:694,0
+DA:695,0
+DA:697,0
+DA:698,0
+DA:699,0
+DA:702,0
+DA:703,0
+DA:704,0
+DA:706,0
+DA:707,0
+DA:711,0
+DA:714,14
+DA:715,14
+DA:716,0
+DA:718,0
+DA:720,14
+DA:721,14
+DA:722,14
+DA:723,14
+DA:724,14
+DA:725,14
+DA:728,14
+DA:729,14
+DA:730,14
+DA:741,18
+BRDA:409,106,1,168
+BRDA:409,82,0,186
+BRDA:409,82,1,0
+BRDA:409,106,0,18
+BRDA:414,117,0,0
+BRDA:414,117,1,18
+BRDA:430,181,0,0
+BRDA:430,181,1,45
+BRDA:435,205,0,4
+BRDA:435,205,1,41
+BRDA:448,263,0,18
+BRDA:448,263,1,59
+BRDA:467,316,0,59
+BRDA:467,316,1,4
+BRDA:467,369,0,59
+BRDA:467,369,1,4
+BRDA:477,435,1,9
+BRDA:477,411,0,9
+BRDA:477,411,1,4
+BRDA:477,435,0,4
+BRDA:482,446,0,0
+BRDA:482,446,1,4
+BRDA:500,500,0,45
+BRDA:500,500,1,63
+BRDA:512,563,0,59
+BRDA:512,563,1,4
+BRDA:512,588,0,49
+BRDA:512,588,1,14
+BRDA:524,656,1,56
+BRDA:524,632,0,70
+BRDA:524,632,1,0
+BRDA:524,656,0,14
+BRDA:529,667,0,0
+BRDA:529,667,1,14
+BRDA:544,720,0,0
+BRDA:544,720,1,0
+BRDA:549,744,0,0
+BRDA:549,744,1,0
+BRDA:574,820,0,14
+BRDA:574,820,1,14
+BRDA:574,850,0,14
+BRDA:574,850,1,14
+BRDA:584,916,1,28
+BRDA:584,892,0,28
+BRDA:584,892,1,14
+BRDA:584,916,0,14
+BRDA:589,927,0,0
+BRDA:589,927,1,14
+BRDA:607,981,0,0
+BRDA:607,981,1,28
+BRDA:619,1044,0,14
+BRDA:619,1044,1,14
+BRDA:619,1069,0,14
+BRDA:619,1069,1,14
+BRDA:631,1137,1,28
+BRDA:631,1113,0,28
+BRDA:631,1113,1,14
+BRDA:631,1137,0,14
+BRDA:636,1148,0,0
+BRDA:636,1148,1,14
+BRDA:651,1202,0,0
+BRDA:651,1202,1,0
+BRDA:656,1226,0,0
+BRDA:656,1226,1,0
+BRDA:682,1308,0,0
+BRDA:682,1308,1,14
+BRDA:682,1338,0,14
+BRDA:682,1338,1,0
+BRDA:692,1404,1,0
+BRDA:692,1380,0,0
+BRDA:692,1380,1,0
+BRDA:692,1404,0,0
+BRDA:697,1415,0,0
+BRDA:697,1415,1,0
+BRDA:715,1469,0,0
+BRDA:715,1469,1,14
+FN:734,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3/RunnerFactory/Runner::<TryMatchAtCurrentPosition>g__UncaptureUntil|2_0(System.Int32)
+FNDA:154,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3/RunnerFactory/Runner::<TryMatchAtCurrentPosition>g__UncaptureUntil|2_0(System.Int32)
+DA:735,154
+DA:736,172
+DA:737,18
+DA:738,18
+DA:739,18
+DA:740,154
+BRDA:736,23,1,18
+BRDA:736,23,0,154
+FN:759,System.Boolean System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__Utilities::IsWordChar(System.Char)
+FNDA:339,System.Boolean System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__Utilities::IsWordChar(System.Char)
+DA:760,339
+DA:762,339
+DA:763,339
+DA:764,339
+DA:765,339
+DA:766,339
+DA:769,339
+DA:770,339
+DA:771,339
+DA:772,339
+DA:773,339
+DA:774,339
+DA:775,339
+DA:776,339
+DA:777,339
+DA:778,339
+DA:779,339
+DA:780,339
+DA:781,0
+DA:782,0
+DA:783,339
+DA:784,339
+BRDA:770,26,0,339
+BRDA:770,26,1,0
+BRDA:772,67,0,0
+BRDA:772,74,0,0
+BRDA:772,67,1,0
+BRDA:772,74,1,0
+BRDA:772,82,1,0
+BRDA:772,82,0,0
+FN:788,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__Utilities::StackPush(System.Int32[]&,System.Int32&,System.Int32,System.Int32)
+FNDA:105,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__Utilities::StackPush(System.Int32[]&,System.Int32&,System.Int32,System.Int32)
+DA:789,105
+DA:791,105
+DA:792,105
+DA:793,105
+DA:794,105
+DA:795,105
+DA:796,105
+DA:797,105
+DA:798,105
+DA:802,0
+DA:811,105
+BRDA:793,17,0,105
+BRDA:793,17,1,0
+FN:806,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__Utilities::<StackPush>g__WithResize|3_0(System.Int32[]&,System.Int32&,System.Int32,System.Int32)
+FNDA:0,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__Utilities::<StackPush>g__WithResize|3_0(System.Int32[]&,System.Int32&,System.Int32,System.Int32)
+DA:807,0
+DA:808,0
+DA:809,0
+DA:810,0
+FN:751,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__Utilities::.cctor()
+FNDA:1,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__Utilities::.cctor()
+DA:752,1
+DA:755,1
+BRDA:752,17,0,0
+BRDA:752,17,1,1
+FN:17,System.Text.RegularExpressions.Regex Utility.CompiledRegex::ContainsLetter()
+FNDA:7,System.Text.RegularExpressions.Regex Utility.CompiledRegex::ContainsLetter()
+DA:18,7
+FN:32,System.Text.RegularExpressions.Regex Utility.CompiledRegex::ContainsNumber()
+FNDA:7,System.Text.RegularExpressions.Regex Utility.CompiledRegex::ContainsNumber()
+DA:33,7
+FN:47,System.Text.RegularExpressions.Regex Utility.CompiledRegex::ContainsSpecialCharacter()
+FNDA:7,System.Text.RegularExpressions.Regex Utility.CompiledRegex::ContainsSpecialCharacter()
+DA:48,7
+FN:78,System.Text.RegularExpressions.Regex Utility.CompiledRegex::ValidEmail()
+FNDA:18,System.Text.RegularExpressions.Regex Utility.CompiledRegex::ValidEmail()
+DA:79,18
+LF:414
+LH:345
+BRF:132
+BRH:92
+FNF:30
+FNH:29
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Utility\Extensions.cs
+FN:11,System.Boolean Extensions.StringExtensions::IsValidEmail(System.String)
+FNDA:18,System.Boolean Extensions.StringExtensions::IsValidEmail(System.String)
+DA:12,18
+FN:14,System.String Extensions.StringExtensions::RandomString(System.String,System.Int32)
+FNDA:0,System.String Extensions.StringExtensions::RandomString(System.String,System.Int32)
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+FN:23,System.String Extensions.ClaimsPrincipalExtensions::GetEmail(System.Security.Claims.ClaimsPrincipal)
+FNDA:0,System.String Extensions.ClaimsPrincipalExtensions::GetEmail(System.Security.Claims.ClaimsPrincipal)
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:29,0
+DA:30,0
+BRDA:25,18,0,0
+BRDA:25,18,1,0
+BRDA:25,71,0,0
+BRDA:25,71,1,0
+BRDA:29,84,0,0
+BRDA:29,84,1,0
+FN:39,System.Boolean Extensions.DbContextExtensions::EmailExists(EF.ApplicationContext,System.String)
+FNDA:8,System.Boolean Extensions.DbContextExtensions::EmailExists(EF.ApplicationContext,System.String)
+DA:40,8
+DA:41,8
+DA:43,8
+DA:44,7
+DA:46,1
+DA:47,8
+BRDA:43,125,0,8
+BRDA:43,125,1,0
+BRDA:43,141,0,7
+BRDA:43,141,1,1
+LF:17
+LH:7
+BRF:10
+BRH:3
+FNF:4
+FNH:2
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Utility\PasswordUtility.cs
+FN:13,System.String Utility.PasswordUtility::HashPassword(System.String)
+FNDA:31,System.String Utility.PasswordUtility::HashPassword(System.String)
+DA:14,31
+DA:16,31
+DA:17,31
+DA:18,31
+DA:20,31
+DA:21,31
+DA:22,31
+DA:24,31
+DA:25,31
+DA:26,31
+FN:28,System.Boolean Utility.PasswordUtility::PasswordVerified(System.String,System.String)
+FNDA:4,System.Boolean Utility.PasswordUtility::PasswordVerified(System.String,System.String)
+DA:29,4
+DA:30,4
+DA:32,4
+DA:33,4
+DA:35,4
+DA:36,4
+DA:38,128
+DA:39,61
+DA:40,61
+DA:41,1
+DA:42,60
+DA:44,3
+DA:45,4
+BRDA:38,120,1,61
+BRDA:40,93,0,1
+BRDA:40,93,1,60
+BRDA:38,120,0,3
+FN:47,System.ValueTuple`2<System.Boolean,System.Collections.Generic.List`1<Models.ErrorInfo>> Utility.PasswordUtility::IsPasswordStrong(System.String)
+FNDA:7,System.ValueTuple`2<System.Boolean,System.Collections.Generic.List`1<Models.ErrorInfo>> Utility.PasswordUtility::IsPasswordStrong(System.String)
+DA:48,7
+DA:49,7
+DA:50,7
+DA:51,1
+DA:52,7
+DA:53,1
+DA:54,7
+DA:55,1
+DA:56,7
+DA:57,1
+DA:58,7
+DA:59,7
+BRDA:50,22,0,1
+BRDA:50,22,1,7
+BRDA:52,100,0,1
+BRDA:52,100,1,7
+BRDA:54,142,0,1
+BRDA:54,142,1,7
+BRDA:56,184,0,1
+BRDA:56,184,1,7
+FN:6,System.Void Utility.PasswordUtility::.cctor()
+FNDA:1,System.Void Utility.PasswordUtility::.cctor()
+DA:7,1
+DA:8,1
+DA:9,1
+DA:10,1
+DA:11,1
+LF:40
+LH:40
+BRF:12
+BRH:12
+FNF:4
+FNH:4
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Services\AuthService.cs
+FN:10,EF.ApplicationContext Services.AuthService::get_Db()
+FNDA:20,EF.ApplicationContext Services.AuthService::get_Db()
+DA:11,20
+FN:22,OneOf.OneOf`2<System.String,Models.ErrorInfo> Services.AuthService::Register(Models.Auth)
+FNDA:10,OneOf.OneOf`2<System.String,Models.ErrorInfo> Services.AuthService::Register(Models.Auth)
+DA:23,10
+DA:24,10
+DA:25,2
+DA:27,8
+DA:28,1
+DA:30,7
+DA:32,7
+DA:33,4
+DA:35,3
+DA:37,3
+DA:38,10
+BRDA:24,17,0,2
+BRDA:24,17,1,8
+BRDA:27,83,0,1
+BRDA:27,83,1,7
+BRDA:32,157,0,4
+BRDA:32,157,1,3
+BRDA:37,204,0,1
+BRDA:37,204,1,2
+FN:44,OneOf.OneOf`2<System.String,Models.ErrorInfo> Services.AuthService::Login(Models.Auth)
+FNDA:8,OneOf.OneOf`2<System.String,Models.ErrorInfo> Services.AuthService::Login(Models.Auth)
+DA:45,8
+DA:46,8
+DA:47,2
+DA:49,6
+DA:51,5
+DA:52,1
+DA:54,4
+DA:55,1
+DA:57,3
+DA:58,3
+DA:59,7
+BRDA:46,17,0,2
+BRDA:46,17,1,6
+BRDA:51,83,0,1
+BRDA:51,83,1,4
+BRDA:54,130,0,1
+BRDA:54,130,1,3
+BRDA:57,179,0,1
+BRDA:57,179,1,2
+FN:65,Models.Auth Services.AuthService::InsertAuthInfo(Models.Auth)
+FNDA:3,Models.Auth Services.AuthService::InsertAuthInfo(Models.Auth)
+DA:66,3
+DA:67,3
+DA:68,3
+DA:69,3
+DA:70,3
+DA:71,3
+FN:77,OneOf.OneOf`2<Models.Auth,Models.ErrorInfo> Services.AuthService::GetAuthInfo(System.String)
+FNDA:6,OneOf.OneOf`2<Models.Auth,Models.ErrorInfo> Services.AuthService::GetAuthInfo(System.String)
+DA:78,6
+DA:79,6
+DA:81,6
+DA:82,1
+DA:84,5
+DA:85,1
+DA:87,4
+DA:88,5
+BRDA:81,140,0,1
+BRDA:81,140,1,5
+BRDA:84,195,0,1
+BRDA:84,195,1,4
+FN:12,System.Void Services.AuthService::.ctor(EF.ApplicationContext)
+FNDA:14,System.Void Services.AuthService::.ctor(EF.ApplicationContext)
+DA:13,14
+DA:14,14
+DA:15,14
+DA:16,14
+LF:41
+LH:41
+BRF:20
+BRH:20
+FNF:6
+FNH:6
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Services\FriendsService.cs
+FN:9,EF.ApplicationContext Services.FriendsService::get_Db()
+FNDA:0,EF.ApplicationContext Services.FriendsService::get_Db()
+DA:10,0
+FN:17,OneOf.OneOf`2<OneOf.OneOf`2<Models.Subscription,Models.Friends>,Models.ErrorInfo> Services.FriendsService::Subscribe(Models.Profile,Models.Profile)
+FNDA:0,OneOf.OneOf`2<OneOf.OneOf`2<Models.Subscription,Models.Friends>,Models.ErrorInfo> Services.FriendsService::Subscribe(Models.Profile,Models.Profile)
+DA:18,0
+DA:19,0
+DA:20,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:31,0
+DA:34,0
+DA:35,0
+DA:38,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:50,0
+DA:52,0
+DA:53,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+BRDA:19,19,0,0
+BRDA:19,19,1,0
+BRDA:34,126,0,0
+BRDA:34,126,1,0
+BRDA:41,249,0,0
+BRDA:41,249,1,0
+BRDA:41,262,0,0
+BRDA:44,286,0,0
+BRDA:44,286,1,0
+BRDA:41,262,1,0
+BRDA:52,350,0,0
+BRDA:52,350,1,0
+FN:60,OneOf.OneOf`2<Models.Friends,Models.ErrorInfo> Services.FriendsService::MakeFriends(Models.Profile,Models.Profile)
+FNDA:0,OneOf.OneOf`2<Models.Friends,Models.ErrorInfo> Services.FriendsService::MakeFriends(Models.Profile,Models.Profile)
+DA:61,0
+DA:62,0
+DA:63,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:73,0
+DA:75,0
+DA:76,0
+DA:78,0
+DA:79,0
+DA:82,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:89,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:101,0
+BRDA:62,47,0,0
+BRDA:62,47,1,0
+BRDA:78,209,0,0
+BRDA:78,209,1,0
+FN:103,OneOf.OneOf`2<Models.Subscription,Models.ErrorInfo> Services.FriendsService::Unsubscribe(Models.Profile,Models.Profile)
+FNDA:0,OneOf.OneOf`2<Models.Subscription,Models.ErrorInfo> Services.FriendsService::Unsubscribe(Models.Profile,Models.Profile)
+DA:104,0
+DA:105,0
+DA:106,0
+DA:109,0
+DA:111,0
+DA:112,0
+DA:115,0
+DA:117,0
+DA:118,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+BRDA:105,19,0,0
+BRDA:105,19,1,0
+BRDA:111,85,0,0
+BRDA:111,85,1,0
+BRDA:117,132,0,0
+BRDA:117,132,1,0
+FN:126,OneOf.OneOf`2<Models.Subscription,Models.ErrorInfo> Services.FriendsService::StopBeingFriends(Models.Profile,Models.Profile,Models.Friends)
+FNDA:0,OneOf.OneOf`2<Models.Subscription,Models.ErrorInfo> Services.FriendsService::StopBeingFriends(Models.Profile,Models.Profile,Models.Friends)
+DA:127,0
+DA:128,0
+DA:129,0
+DA:131,0
+DA:133,0
+DA:135,0
+DA:136,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:142,0
+DA:143,0
+DA:144,0
+DA:146,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:152,0
+DA:153,0
+DA:154,0
+DA:155,0
+DA:156,0
+DA:158,0
+BRDA:128,30,0,0
+BRDA:128,30,1,0
+FN:160,System.ValueTuple`2<System.Boolean,Models.Friends> Services.FriendsService::AreFriends(Models.Profile,Models.Profile)
+FNDA:0,System.ValueTuple`2<System.Boolean,Models.Friends> Services.FriendsService::AreFriends(Models.Profile,Models.Profile)
+DA:161,0
+DA:162,0
+DA:163,0
+DA:164,0
+DA:165,0
+DA:166,0
+DA:168,0
+DA:169,0
+DA:171,0
+DA:172,0
+DA:174,0
+DA:175,0
+BRDA:168,398,0,0
+BRDA:168,398,1,0
+BRDA:168,414,0,0
+BRDA:168,414,1,0
+BRDA:171,440,0,0
+BRDA:171,440,1,0
+FN:177,System.ValueTuple`2<System.Boolean,Models.Subscription> Services.FriendsService::IsSubscriber(Models.Profile,Models.Profile)
+FNDA:0,System.ValueTuple`2<System.Boolean,Models.Subscription> Services.FriendsService::IsSubscriber(Models.Profile,Models.Profile)
+DA:178,0
+DA:179,0
+DA:180,0
+DA:181,0
+DA:183,0
+DA:184,0
+DA:186,0
+DA:187,0
+DA:189,0
+DA:190,0
+BRDA:183,234,0,0
+BRDA:183,234,1,0
+BRDA:183,250,0,0
+BRDA:183,250,1,0
+BRDA:186,276,0,0
+BRDA:186,276,1,0
+FN:192,System.Collections.Generic.List`1<Models.Subscription> Services.FriendsService::GetSubscriptions(Models.Profile)
+FNDA:0,System.Collections.Generic.List`1<Models.Subscription> Services.FriendsService::GetSubscriptions(Models.Profile)
+DA:193,0
+FN:194,System.Collections.Generic.List`1<Models.Subscription> Services.FriendsService::GetSubscribers(Models.Profile)
+FNDA:0,System.Collections.Generic.List`1<Models.Subscription> Services.FriendsService::GetSubscribers(Models.Profile)
+DA:195,0
+FN:196,System.Collections.Generic.List`1<Models.Friends> Services.FriendsService::GetFriends(Models.Profile)
+FNDA:0,System.Collections.Generic.List`1<Models.Friends> Services.FriendsService::GetFriends(Models.Profile)
+DA:197,0
+FN:11,System.Void Services.FriendsService::.ctor(EF.ApplicationContext)
+FNDA:0,System.Void Services.FriendsService::.ctor(EF.ApplicationContext)
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+LF:124
+LH:0
+BRF:36
+BRH:0
+FNF:11
+FNH:0
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Services\ProfileService.cs
+FN:17,OneOf.OneOf`2<Models.Profile,Models.ErrorInfo> Services.ProfileService::Create(System.String,Models.ProfileCreationInfo)
+FNDA:0,OneOf.OneOf`2<Models.Profile,Models.ErrorInfo> Services.ProfileService::Create(System.String,Models.ProfileCreationInfo)
+DA:18,0
+DA:19,0
+DA:21,0
+DA:22,0
+DA:24,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:38,0
+BRDA:21,148,0,0
+BRDA:21,148,1,0
+BRDA:21,163,0,0
+BRDA:21,163,1,0
+FN:40,System.String Services.ProfileService::GenerateUniqueProfileName()
+FNDA:0,System.String Services.ProfileService::GenerateUniqueProfileName()
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+BRDA:46,129,1,0
+BRDA:50,113,0,0
+BRDA:50,113,1,0
+BRDA:46,129,0,0
+FN:56,OneOf.OneOf`2<Models.Profile,Models.ErrorInfo> Services.ProfileService::Get(Services.GetByProfile,System.String)
+FNDA:0,OneOf.OneOf`2<Models.Profile,Models.ErrorInfo> Services.ProfileService::Get(Services.GetByProfile,System.String)
+DA:57,0
+DA:58,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:78,0
+DA:79,0
+DA:81,0
+DA:82,0
+DA:84,0
+DA:85,0
+BRDA:60,22,0,0
+BRDA:60,22,1,0
+BRDA:64,217,0,0
+BRDA:64,217,1,0
+BRDA:68,432,0,0
+BRDA:70,470,0,0
+BRDA:70,470,1,0
+BRDA:68,432,1,0
+BRDA:78,696,0,0
+BRDA:78,696,1,0
+BRDA:78,714,0,0
+BRDA:79,743,0,0
+BRDA:79,743,1,0
+BRDA:78,714,1,0
+BRDA:81,842,0,0
+BRDA:81,842,1,0
+FN:11,System.Void Services.ProfileService::.ctor(EF.ApplicationContext)
+FNDA:0,System.Void Services.ProfileService::.ctor(EF.ApplicationContext)
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+LF:54
+LH:0
+BRF:24
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Program.cs
+FN:11,System.Void Src.Program::Main(System.String[])
+FNDA:0,System.Void Src.Program::Main(System.String[])
+DA:12,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:74,0
+DA:75,0
+DA:78,0
+DA:80,0
+DA:81,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:89,0
+DA:90,0
+DA:97,0
+DA:98,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:107,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:124,0
+BRDA:80,458,0,0
+BRDA:80,458,1,0
+BRDA:83,477,0,0
+BRDA:83,477,1,0
+BRDA:102,604,0,0
+BRDA:102,604,1,0
+LF:80
+LH:0
+BRF:6
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Migrations\20230815105951_Initial.cs
+FN:12,System.Void Src.Migrations.Initial::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+FNDA:0,System.Void Src.Migrations.Initial::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+FN:83,System.Void Src.Migrations.Initial::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+FNDA:0,System.Void Src.Migrations.Initial::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+DA:84,0
+DA:85,0
+DA:86,0
+DA:88,0
+DA:89,0
+DA:91,0
+DA:92,0
+DA:93,0
+LF:72
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Migrations\20230815105951_Initial.Designer.cs
+FN:18,System.Void Src.Migrations.Initial::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:0,System.Void Src.Migrations.Initial::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:19,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:25,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:142,0
+LF:116
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Migrations\20230815124730_AddedFriendsTable_V1.cs
+FN:12,System.Void Src.Migrations.AddedFriendsTable_V1::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+FNDA:0,System.Void Src.Migrations.AddedFriendsTable_V1::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:18,0
+DA:19,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+FN:67,System.Void Src.Migrations.AddedFriendsTable_V1::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+FNDA:0,System.Void Src.Migrations.AddedFriendsTable_V1::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+DA:68,0
+DA:69,0
+DA:70,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+LF:78
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Migrations\20230815124730_AddedFriendsTable_V1.Designer.cs
+FN:18,System.Void Src.Migrations.AddedFriendsTable_V1::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:0,System.Void Src.Migrations.AddedFriendsTable_V1::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:19,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:25,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:142,0
+DA:143,0
+DA:144,0
+DA:145,0
+DA:146,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:151,0
+DA:153,0
+LF:127
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Migrations\20230815161031_AddedSubscriptionsTable_V1.cs
+FN:12,System.Void Src.Migrations.AddedSubscriptionsTable_V1::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+FNDA:0,System.Void Src.Migrations.AddedSubscriptionsTable_V1::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+FN:52,System.Void Src.Migrations.AddedSubscriptionsTable_V1::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+FNDA:0,System.Void Src.Migrations.AddedSubscriptionsTable_V1::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+LF:39
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Migrations\20230815161031_AddedSubscriptionsTable_V1.Designer.cs
+FN:18,System.Void Src.Migrations.AddedSubscriptionsTable_V1::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:0,System.Void Src.Migrations.AddedSubscriptionsTable_V1::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:19,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:25,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:142,0
+DA:143,0
+DA:144,0
+DA:145,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:151,0
+DA:152,0
+DA:153,0
+DA:154,0
+DA:155,0
+DA:156,0
+DA:157,0
+DA:158,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:162,0
+DA:163,0
+DA:164,0
+DA:166,0
+DA:167,0
+DA:168,0
+DA:169,0
+DA:170,0
+DA:171,0
+DA:172,0
+DA:173,0
+DA:174,0
+DA:175,0
+DA:177,0
+DA:178,0
+DA:179,0
+DA:180,0
+DA:181,0
+DA:182,0
+DA:183,0
+DA:184,0
+DA:185,0
+DA:186,0
+DA:187,0
+DA:188,0
+DA:189,0
+DA:190,0
+DA:191,0
+DA:192,0
+DA:193,0
+DA:194,0
+DA:196,0
+LF:168
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Migrations\ApplicationContextModelSnapshot.cs
+FN:15,System.Void Src.Migrations.ApplicationContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:0,System.Void Src.Migrations.ApplicationContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:16,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:22,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:142,0
+DA:144,0
+DA:145,0
+DA:146,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:151,0
+DA:152,0
+DA:153,0
+DA:154,0
+DA:155,0
+DA:156,0
+DA:157,0
+DA:158,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:163,0
+DA:164,0
+DA:165,0
+DA:166,0
+DA:167,0
+DA:168,0
+DA:169,0
+DA:170,0
+DA:171,0
+DA:172,0
+DA:174,0
+DA:175,0
+DA:176,0
+DA:177,0
+DA:178,0
+DA:179,0
+DA:180,0
+DA:181,0
+DA:182,0
+DA:183,0
+DA:184,0
+DA:185,0
+DA:186,0
+DA:187,0
+DA:188,0
+DA:189,0
+DA:190,0
+DA:191,0
+DA:193,0
+LF:168
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\EntityFrameworkCore\Models\Auth.cs
+FN:13,System.Int32 Models.Auth::get_Id()
+FNDA:0,System.Int32 Models.Auth::get_Id()
+DA:14,0
+FN:18,System.String Models.Auth::get_Email()
+FNDA:124,System.String Models.Auth::get_Email()
+DA:19,124
+FN:23,System.String Models.Auth::get_Password()
+FNDA:68,System.String Models.Auth::get_Password()
+DA:24,68
+FN:27,System.Boolean Models.Auth::get_IsAdmin()
+FNDA:44,System.Boolean Models.Auth::get_IsAdmin()
+DA:28,44
+FN:29,System.Void Models.Auth::.ctor()
+FNDA:141,System.Void Models.Auth::.ctor()
+DA:30,141
+FN:31,System.Void Models.Auth::.ctor(System.String,System.String,System.Boolean)
+FNDA:0,System.Void Models.Auth::.ctor(System.String,System.String,System.Boolean)
+DA:32,0
+LF:6
+LH:4
+BRF:0
+BRH:0
+FNF:6
+FNH:4
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\EntityFrameworkCore\Models\Chat.cs
+FN:13,System.Int32 Models.Chat::get_Id()
+FNDA:0,System.Int32 Models.Chat::get_Id()
+DA:14,0
+FN:17,System.String Models.Chat::get_Name()
+FNDA:0,System.String Models.Chat::get_Name()
+DA:18,0
+FN:21,System.DateTime Models.Chat::get_CreationTime()
+FNDA:0,System.DateTime Models.Chat::get_CreationTime()
+DA:22,0
+FN:25,System.Collections.Generic.List`1<Models.Profile> Models.Chat::get_Participants()
+FNDA:0,System.Collections.Generic.List`1<Models.Profile> Models.Chat::get_Participants()
+DA:26,0
+FN:27,System.Void Models.Chat::.ctor()
+FNDA:0,System.Void Models.Chat::.ctor()
+DA:28,0
+LF:5
+LH:0
+BRF:0
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\EntityFrameworkCore\Models\Friends.cs
+FN:13,System.Int32 Models.Friends::get_Id()
+FNDA:0,System.Int32 Models.Friends::get_Id()
+DA:14,0
+FN:15,System.Int32 Models.Friends::get_FirstProfileId()
+FNDA:0,System.Int32 Models.Friends::get_FirstProfileId()
+DA:16,0
+FN:20,Models.Profile Models.Friends::get_FirstProfile()
+FNDA:0,Models.Profile Models.Friends::get_FirstProfile()
+DA:21,0
+FN:22,System.Int32 Models.Friends::get_SecondProfileId()
+FNDA:0,System.Int32 Models.Friends::get_SecondProfileId()
+DA:23,0
+FN:27,Models.Profile Models.Friends::get_SecondProfile()
+FNDA:0,Models.Profile Models.Friends::get_SecondProfile()
+DA:28,0
+FN:29,System.Void Models.Friends::.ctor()
+FNDA:0,System.Void Models.Friends::.ctor()
+DA:30,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\EntityFrameworkCore\Models\Message.cs
+FN:13,System.Int32 Models.Message::get_Id()
+FNDA:0,System.Int32 Models.Message::get_Id()
+DA:14,0
+FN:15,System.Int32 Models.Message::get_ChatId()
+FNDA:0,System.Int32 Models.Message::get_ChatId()
+DA:16,0
+FN:20,Models.Chat Models.Message::get_Chat()
+FNDA:0,Models.Chat Models.Message::get_Chat()
+DA:21,0
+FN:22,System.Int32 Models.Message::get_ProfileId()
+FNDA:0,System.Int32 Models.Message::get_ProfileId()
+DA:23,0
+FN:27,Models.Profile Models.Message::get_Profile()
+FNDA:0,Models.Profile Models.Message::get_Profile()
+DA:28,0
+FN:31,System.DateTime Models.Message::get_CreationTime()
+FNDA:0,System.DateTime Models.Message::get_CreationTime()
+DA:32,0
+FN:35,System.Boolean Models.Message::get_Edited()
+FNDA:0,System.Boolean Models.Message::get_Edited()
+DA:36,0
+FN:37,System.Int32 Models.Message::get_RepliedMessageId()
+FNDA:0,System.Int32 Models.Message::get_RepliedMessageId()
+DA:38,0
+FN:40,Models.Message Models.Message::get_RepliedMessage()
+FNDA:0,Models.Message Models.Message::get_RepliedMessage()
+DA:41,0
+FN:42,System.Void Models.Message::.ctor()
+FNDA:0,System.Void Models.Message::.ctor()
+DA:43,0
+LF:10
+LH:0
+BRF:0
+BRH:0
+FNF:10
+FNH:0
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\EntityFrameworkCore\Models\Profile.cs
+FN:14,System.Int32 Models.Profile::get_Id()
+FNDA:0,System.Int32 Models.Profile::get_Id()
+DA:15,0
+FN:16,System.Int32 Models.Profile::get_AuthId()
+FNDA:0,System.Int32 Models.Profile::get_AuthId()
+DA:17,0
+FN:21,Models.Auth Models.Profile::get_Auth()
+FNDA:0,Models.Auth Models.Profile::get_Auth()
+DA:22,0
+FN:26,System.String Models.Profile::get_ProfileName()
+FNDA:0,System.String Models.Profile::get_ProfileName()
+DA:27,0
+FN:31,System.String Models.Profile::get_FirstName()
+FNDA:0,System.String Models.Profile::get_FirstName()
+DA:32,0
+FN:36,System.String Models.Profile::get_LastName()
+FNDA:0,System.String Models.Profile::get_LastName()
+DA:37,0
+FN:40,System.String Models.Profile::get_Nickname()
+FNDA:0,System.String Models.Profile::get_Nickname()
+DA:41,0
+FN:42,System.Void Models.Profile::.ctor()
+FNDA:0,System.Void Models.Profile::.ctor()
+DA:43,0
+LF:8
+LH:0
+BRF:0
+BRH:0
+FNF:8
+FNH:0
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\EntityFrameworkCore\Models\Subscribers.cs
+FN:13,System.Int32 Models.Subscription::get_Id()
+FNDA:0,System.Int32 Models.Subscription::get_Id()
+DA:14,0
+FN:15,System.Int32 Models.Subscription::get_SubscribingId()
+FNDA:0,System.Int32 Models.Subscription::get_SubscribingId()
+DA:16,0
+FN:20,Models.Profile Models.Subscription::get_SubscribingProfile()
+FNDA:0,Models.Profile Models.Subscription::get_SubscribingProfile()
+DA:21,0
+FN:22,System.Int32 Models.Subscription::get_SubscribedId()
+FNDA:0,System.Int32 Models.Subscription::get_SubscribedId()
+DA:23,0
+FN:27,Models.Profile Models.Subscription::get_SubscribedProfile()
+FNDA:0,Models.Profile Models.Subscription::get_SubscribedProfile()
+DA:28,0
+FN:29,System.Void Models.Subscription::.ctor()
+FNDA:0,System.Void Models.Subscription::.ctor()
+DA:30,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Models\ErrorInfo.cs
+FN:4,System.String Models.ErrorInfo::get_Type()
+FNDA:15,System.String Models.ErrorInfo::get_Type()
+DA:5,15
+FN:5,System.String Models.ErrorInfo::get_Message()
+FNDA:15,System.String Models.ErrorInfo::get_Message()
+DA:6,15
+FN:13,System.String Models.ErrorInfo::ToString()
+FNDA:0,System.String Models.ErrorInfo::ToString()
+DA:14,0
+FN:6,System.Void Models.ErrorInfo::.ctor(System.String,System.String)
+FNDA:15,System.Void Models.ErrorInfo::.ctor(System.String,System.String)
+DA:7,15
+DA:8,15
+DA:9,15
+FN:10,System.Void Models.ErrorInfo::.ctor(System.Exception)
+FNDA:0,System.Void Models.ErrorInfo::.ctor(System.Exception)
+DA:11,0
+DA:12,0
+FN:17,System.Collections.Generic.List`1<T> Models.ErrorInfo`1::get_AdditionalInfo()
+FNDA:4,System.Collections.Generic.List`1<T> Models.ErrorInfo`1::get_AdditionalInfo()
+DA:18,4
+FN:20,System.Void Models.ErrorInfo`1::.ctor(System.String,System.String,System.Collections.Generic.List`1<T>)
+FNDA:4,System.Void Models.ErrorInfo`1::.ctor(System.String,System.String,System.Collections.Generic.List`1<T>)
+DA:21,4
+DA:22,4
+LF:11
+LH:8
+BRF:0
+BRH:0
+FNF:7
+FNH:5
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Models\ProfileCreationInfo.cs
+FN:4,System.String Models.ProfileCreationInfo::get_ProfileName()
+FNDA:0,System.String Models.ProfileCreationInfo::get_ProfileName()
+DA:5,0
+FN:5,System.String Models.ProfileCreationInfo::get_FirstName()
+FNDA:0,System.String Models.ProfileCreationInfo::get_FirstName()
+DA:6,0
+FN:6,System.String Models.ProfileCreationInfo::get_LastName()
+FNDA:0,System.String Models.ProfileCreationInfo::get_LastName()
+DA:7,0
+FN:7,System.Void Models.ProfileCreationInfo::.ctor(System.String,System.String,System.String)
+FNDA:0,System.Void Models.ProfileCreationInfo::.ctor(System.String,System.String,System.String)
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+LF:8
+LH:0
+BRF:0
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Models\ProfileModifyInfo.cs
+FN:4,System.String Models.ProfileModifyInfo::get_ProfileName()
+FNDA:0,System.String Models.ProfileModifyInfo::get_ProfileName()
+DA:5,0
+FN:5,System.String Models.ProfileModifyInfo::get_FirstName()
+FNDA:0,System.String Models.ProfileModifyInfo::get_FirstName()
+DA:6,0
+FN:6,System.String Models.ProfileModifyInfo::get_LastName()
+FNDA:0,System.String Models.ProfileModifyInfo::get_LastName()
+DA:7,0
+FN:7,System.String Models.ProfileModifyInfo::get_About()
+FNDA:0,System.String Models.ProfileModifyInfo::get_About()
+DA:8,0
+FN:9,System.Void Models.ProfileModifyInfo::.ctor()
+FNDA:0,System.Void Models.ProfileModifyInfo::.ctor()
+DA:10,0
+FN:11,System.Void Models.ProfileModifyInfo::.ctor(System.String,System.String,System.String,System.String)
+FNDA:0,System.Void Models.ProfileModifyInfo::.ctor(System.String,System.String,System.String,System.String)
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+LF:10
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\EntityFrameworkCore\ApplicationContext.cs
+FN:6,Microsoft.EntityFrameworkCore.DbSet`1<Models.Auth> EF.ApplicationContext::get_Auth()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<Models.Auth> EF.ApplicationContext::get_Auth()
+DA:7,0
+FN:7,Microsoft.EntityFrameworkCore.DbSet`1<Models.Profile> EF.ApplicationContext::get_Profiles()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<Models.Profile> EF.ApplicationContext::get_Profiles()
+DA:8,0
+FN:8,Microsoft.EntityFrameworkCore.DbSet`1<Models.Friends> EF.ApplicationContext::get_Friends()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<Models.Friends> EF.ApplicationContext::get_Friends()
+DA:9,0
+FN:9,Microsoft.EntityFrameworkCore.DbSet`1<Models.Subscription> EF.ApplicationContext::get_Subscriptions()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<Models.Subscription> EF.ApplicationContext::get_Subscriptions()
+DA:10,0
+FN:13,System.Void EF.ApplicationContext::.ctor()
+FNDA:42,System.Void EF.ApplicationContext::.ctor()
+DA:14,42
+FN:15,System.Void EF.ApplicationContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<EF.ApplicationContext>)
+FNDA:0,System.Void EF.ApplicationContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<EF.ApplicationContext>)
+DA:16,0
+LF:6
+LH:1
+BRF:0
+BRH:0
+FNF:6
+FNH:1
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Controllers\AuthController.cs
+FN:20,Microsoft.AspNetCore.Http.IResult Controllers.AuthController::CreateEverlastingToken(Models.Auth)
+FNDA:2,Microsoft.AspNetCore.Http.IResult Controllers.AuthController::CreateEverlastingToken(Models.Auth)
+DA:21,2
+DA:22,2
+DA:24,2
+DA:25,2
+DA:26,2
+DA:27,2
+DA:28,2
+DA:29,2
+DA:30,2
+BRDA:22,13,0,1
+BRDA:22,13,1,1
+BRDA:24,50,0,1
+BRDA:24,50,1,1
+FN:34,Microsoft.AspNetCore.Http.IResult Controllers.AuthController::Register(Models.Auth)
+FNDA:2,Microsoft.AspNetCore.Http.IResult Controllers.AuthController::Register(Models.Auth)
+DA:35,2
+DA:36,2
+DA:38,2
+DA:39,1
+DA:41,1
+DA:42,1
+DA:43,1
+DA:44,1
+DA:45,1
+DA:46,2
+BRDA:38,23,0,1
+BRDA:38,23,1,1
+FN:50,Microsoft.AspNetCore.Http.IResult Controllers.AuthController::Login(Models.Auth)
+FNDA:2,Microsoft.AspNetCore.Http.IResult Controllers.AuthController::Login(Models.Auth)
+DA:51,2
+DA:52,2
+DA:54,2
+DA:55,1
+DA:57,1
+DA:58,1
+DA:59,1
+DA:60,1
+DA:61,1
+DA:62,2
+BRDA:54,23,0,1
+BRDA:54,23,1,1
+FN:12,System.Void Controllers.AuthController::.ctor(Services.AuthService)
+FNDA:5,System.Void Controllers.AuthController::.ctor(Services.AuthService)
+DA:13,5
+DA:14,5
+DA:15,5
+DA:16,5
+LF:33
+LH:33
+BRF:8
+BRH:8
+FNF:4
+FNH:4
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Controllers\FriendsController.cs
+FN:23,Microsoft.AspNetCore.Http.IResult Controllers.FriendsController::Get()
+FNDA:0,Microsoft.AspNetCore.Http.IResult Controllers.FriendsController::Get()
+DA:24,0
+DA:25,0
+DA:27,0
+DA:28,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+BRDA:27,36,0,0
+BRDA:27,36,1,0
+FN:45,Microsoft.AspNetCore.Http.IResult Controllers.FriendsController::Get(System.String)
+FNDA:0,Microsoft.AspNetCore.Http.IResult Controllers.FriendsController::Get(System.String)
+DA:46,0
+DA:47,0
+DA:49,0
+DA:50,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+BRDA:49,26,0,0
+BRDA:49,26,1,0
+FN:66,Microsoft.AspNetCore.Http.IResult Controllers.FriendsController::Subscribe(System.String)
+FNDA:0,Microsoft.AspNetCore.Http.IResult Controllers.FriendsController::Subscribe(System.String)
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:76,0
+DA:77,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+BRDA:69,34,0,0
+BRDA:69,34,1,0
+BRDA:72,80,0,0
+BRDA:72,80,1,0
+BRDA:76,138,0,0
+BRDA:76,138,1,0
+FN:94,Microsoft.AspNetCore.Http.IResult Controllers.FriendsController::Unsubscribe(System.String)
+FNDA:0,Microsoft.AspNetCore.Http.IResult Controllers.FriendsController::Unsubscribe(System.String)
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:104,0
+DA:105,0
+DA:107,0
+DA:108,0
+BRDA:97,34,0,0
+BRDA:97,34,1,0
+BRDA:100,77,0,0
+BRDA:100,77,1,0
+BRDA:104,132,0,0
+BRDA:104,132,1,0
+FN:15,System.Void Controllers.FriendsController::.ctor(Services.FriendsService,Services.ProfileService)
+FNDA:0,System.Void Controllers.FriendsController::.ctor(Services.FriendsService,Services.ProfileService)
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+LF:69
+LH:0
+BRF:16
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Controllers\ProfileController.cs
+FN:22,Microsoft.AspNetCore.Http.IResult Controllers.ProfileController::Create(Models.ProfileCreationInfo)
+FNDA:0,Microsoft.AspNetCore.Http.IResult Controllers.ProfileController::Create(Models.ProfileCreationInfo)
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:28,0
+DA:30,0
+DA:32,0
+DA:33,0
+DA:35,0
+DA:36,0
+BRDA:24,23,0,0
+BRDA:24,23,1,0
+BRDA:24,76,0,0
+BRDA:24,76,1,0
+BRDA:32,123,0,0
+BRDA:32,123,1,0
+FN:40,Microsoft.AspNetCore.Http.IResult Controllers.ProfileController::Get(System.String)
+FNDA:0,Microsoft.AspNetCore.Http.IResult Controllers.ProfileController::Get(System.String)
+DA:41,0
+DA:42,0
+DA:44,0
+DA:45,0
+DA:47,0
+DA:48,0
+BRDA:44,24,0,0
+BRDA:44,24,1,0
+FN:52,Microsoft.AspNetCore.Http.IResult Controllers.ProfileController::Modify(Models.ProfileModifyInfo)
+FNDA:0,Microsoft.AspNetCore.Http.IResult Controllers.ProfileController::Modify(Models.ProfileModifyInfo)
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:58,0
+BRDA:54,23,0,0
+BRDA:54,23,1,0
+BRDA:54,76,0,0
+BRDA:54,76,1,0
+FN:64,Microsoft.AspNetCore.Http.IResult Controllers.ProfileController::Modify(System.String,Models.ProfileModifyInfo)
+FNDA:0,Microsoft.AspNetCore.Http.IResult Controllers.ProfileController::Modify(System.String,Models.ProfileModifyInfo)
+DA:65,0
+DA:66,0
+FN:14,System.Void Controllers.ProfileController::.ctor(Services.ProfileService)
+FNDA:0,System.Void Controllers.ProfileController::.ctor(Services.ProfileService)
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+LF:27
+LH:0
+BRF:12
+BRH:0
+FNF:5
+FNH:0
+end_of_record
