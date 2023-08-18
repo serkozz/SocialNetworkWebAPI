@@ -3,8 +3,8 @@ FN:5,System.Void UserEmailDuplicateFoundException::.ctor(System.String)
 FNDA:3,System.Void UserEmailDuplicateFoundException::.ctor(System.String)
 DA:6,3
 FN:10,System.Void ProfileNameDuplicateFoundException::.ctor(System.String)
-FNDA:0,System.Void ProfileNameDuplicateFoundException::.ctor(System.String)
-DA:11,0
+FNDA:3,System.Void ProfileNameDuplicateFoundException::.ctor(System.String)
+DA:11,3
 FN:18,System.String SubscriptionDuplicateFoundException::CreateMessage(System.Collections.Generic.IEnumerable`1<Models.Subscription>)
 FNDA:0,System.String SubscriptionDuplicateFoundException::CreateMessage(System.Collections.Generic.IEnumerable`1<Models.Subscription>)
 DA:19,0
@@ -38,11 +38,11 @@ FN:31,System.Void FriendshipDuplicateFoundException::.ctor(System.Collections.Ge
 FNDA:0,System.Void FriendshipDuplicateFoundException::.ctor(System.Collections.Generic.IEnumerable`1<Models.Friends>)
 DA:32,0
 LF:22
-LH:1
+LH:2
 BRF:4
 BRH:0
 FNF:6
-FNH:1
+FNH:2
 end_of_record
 SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Utility\JwtHelper.cs
 FN:24,System.String JwtHelper::CreateJWT(System.String,System.String,System.Int32)
@@ -122,8 +122,8 @@ FN:98,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74
 FNDA:1,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsLetter_0::.cctor()
 DA:99,1
 FN:115,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsLetter_0/RunnerFactory::CreateInstance()
-FNDA:1,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsLetter_0/RunnerFactory::CreateInstance()
-DA:116,1
+FNDA:2,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsLetter_0/RunnerFactory::CreateInstance()
+DA:116,2
 FN:123,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsLetter_0/RunnerFactory/Runner::Scan(System.ReadOnlySpan`1<System.Char>)
 FNDA:7,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsLetter_0/RunnerFactory/Runner::Scan(System.ReadOnlySpan`1<System.Char>)
 DA:124,7
@@ -177,8 +177,8 @@ FN:171,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F7
 FNDA:1,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsNumber_1::.cctor()
 DA:172,1
 FN:188,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsNumber_1/RunnerFactory::CreateInstance()
-FNDA:1,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsNumber_1/RunnerFactory::CreateInstance()
-DA:189,1
+FNDA:2,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsNumber_1/RunnerFactory::CreateInstance()
+DA:189,2
 FN:196,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsNumber_1/RunnerFactory/Runner::Scan(System.ReadOnlySpan`1<System.Char>)
 FNDA:7,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsNumber_1/RunnerFactory/Runner::Scan(System.ReadOnlySpan`1<System.Char>)
 DA:197,7
@@ -230,8 +230,8 @@ FN:243,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F7
 FNDA:1,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsSpecialCharacter_2::.cctor()
 DA:244,1
 FN:260,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsSpecialCharacter_2/RunnerFactory::CreateInstance()
-FNDA:1,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsSpecialCharacter_2/RunnerFactory::CreateInstance()
-DA:261,1
+FNDA:2,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsSpecialCharacter_2/RunnerFactory::CreateInstance()
+DA:261,2
 FN:268,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsSpecialCharacter_2/RunnerFactory/Runner::Scan(System.ReadOnlySpan`1<System.Char>)
 FNDA:7,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ContainsSpecialCharacter_2/RunnerFactory/Runner::Scan(System.ReadOnlySpan`1<System.Char>)
 DA:269,7
@@ -285,8 +285,8 @@ FN:316,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F7
 FNDA:1,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3::.cctor()
 DA:317,1
 FN:333,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3/RunnerFactory::CreateInstance()
-FNDA:2,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3/RunnerFactory::CreateInstance()
-DA:334,2
+FNDA:3,System.Text.RegularExpressions.RegexRunner System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3/RunnerFactory::CreateInstance()
+DA:334,3
 FN:341,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3/RunnerFactory/Runner::Scan(System.ReadOnlySpan`1<System.Char>)
 FNDA:18,System.Void System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__ValidEmail_3/RunnerFactory/Runner::Scan(System.ReadOnlySpan`1<System.Char>)
 DA:342,18
@@ -351,10 +351,10 @@ DA:400,18
 DA:402,18
 DA:406,18
 DA:408,18
-DA:409,186
-DA:410,168
-DA:411,168
-DA:412,168
+DA:409,192
+DA:410,174
+DA:411,174
+DA:412,174
 DA:414,18
 DA:415,0
 DA:416,0
@@ -556,8 +556,8 @@ DA:728,14
 DA:729,14
 DA:730,14
 DA:741,18
-BRDA:409,106,1,168
-BRDA:409,82,0,186
+BRDA:409,106,1,174
+BRDA:409,82,0,192
 BRDA:409,82,1,0
 BRDA:409,106,0,18
 BRDA:414,117,0,0
@@ -643,30 +643,30 @@ DA:740,154
 BRDA:736,23,1,18
 BRDA:736,23,0,154
 FN:759,System.Boolean System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__Utilities::IsWordChar(System.Char)
-FNDA:339,System.Boolean System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__Utilities::IsWordChar(System.Char)
-DA:760,339
-DA:762,339
-DA:763,339
-DA:764,339
-DA:765,339
-DA:766,339
-DA:769,339
-DA:770,339
-DA:771,339
-DA:772,339
-DA:773,339
-DA:774,339
-DA:775,339
-DA:776,339
-DA:777,339
-DA:778,339
-DA:779,339
-DA:780,339
+FNDA:345,System.Boolean System.Text.RegularExpressions.Generated.<RegexGenerator_g>F74B1AE921BCEFE4BA601AA541C7A23B1CA9711EA81E8FE504B5B6446748E035A__Utilities::IsWordChar(System.Char)
+DA:760,345
+DA:762,345
+DA:763,345
+DA:764,345
+DA:765,345
+DA:766,345
+DA:769,345
+DA:770,345
+DA:771,345
+DA:772,345
+DA:773,345
+DA:774,345
+DA:775,345
+DA:776,345
+DA:777,345
+DA:778,345
+DA:779,345
+DA:780,345
 DA:781,0
 DA:782,0
-DA:783,339
-DA:784,339
-BRDA:770,26,0,339
+DA:783,345
+DA:784,345
+BRDA:770,26,0,345
 BRDA:770,26,1,0
 BRDA:772,67,0,0
 BRDA:772,74,0,0
@@ -725,11 +725,11 @@ FN:11,System.Boolean Extensions.StringExtensions::IsValidEmail(System.String)
 FNDA:18,System.Boolean Extensions.StringExtensions::IsValidEmail(System.String)
 DA:12,18
 FN:14,System.String Extensions.StringExtensions::RandomString(System.String,System.Int32)
-FNDA:0,System.String Extensions.StringExtensions::RandomString(System.String,System.Int32)
-DA:15,0
-DA:16,0
-DA:17,0
-DA:18,0
+FNDA:1,System.String Extensions.StringExtensions::RandomString(System.String,System.Int32)
+DA:15,1
+DA:16,1
+DA:17,10
+DA:18,1
 FN:23,System.String Extensions.ClaimsPrincipalExtensions::GetEmail(System.Security.Claims.ClaimsPrincipal)
 FNDA:0,System.String Extensions.ClaimsPrincipalExtensions::GetEmail(System.Security.Claims.ClaimsPrincipal)
 DA:24,0
@@ -757,25 +757,25 @@ BRDA:43,125,1,0
 BRDA:43,141,0,7
 BRDA:43,141,1,1
 LF:17
-LH:7
+LH:11
 BRF:10
 BRH:3
 FNF:4
-FNH:2
+FNH:3
 end_of_record
 SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Utility\PasswordUtility.cs
 FN:13,System.String Utility.PasswordUtility::HashPassword(System.String)
-FNDA:31,System.String Utility.PasswordUtility::HashPassword(System.String)
-DA:14,31
-DA:16,31
-DA:17,31
-DA:18,31
-DA:20,31
-DA:21,31
-DA:22,31
-DA:24,31
-DA:25,31
-DA:26,31
+FNDA:92,System.String Utility.PasswordUtility::HashPassword(System.String)
+DA:14,92
+DA:16,92
+DA:17,92
+DA:18,92
+DA:20,92
+DA:21,92
+DA:22,92
+DA:24,92
+DA:25,92
+DA:26,92
 FN:28,System.Boolean Utility.PasswordUtility::PasswordVerified(System.String,System.String)
 FNDA:4,System.Boolean Utility.PasswordUtility::PasswordVerified(System.String,System.String)
 DA:29,4
@@ -1104,97 +1104,107 @@ FNH:0
 end_of_record
 SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Services\ProfileService.cs
 FN:17,OneOf.OneOf`2<Models.Profile,Models.ErrorInfo> Services.ProfileService::Create(System.String,Models.ProfileCreationInfo)
-FNDA:0,OneOf.OneOf`2<Models.Profile,Models.ErrorInfo> Services.ProfileService::Create(System.String,Models.ProfileCreationInfo)
-DA:18,0
-DA:19,0
-DA:21,0
-DA:22,0
-DA:24,0
-DA:26,0
-DA:27,0
-DA:28,0
-DA:29,0
-DA:30,0
-DA:31,0
-DA:32,0
-DA:34,0
-DA:35,0
-DA:36,0
-DA:38,0
-BRDA:21,148,0,0
-BRDA:21,148,1,0
-BRDA:21,163,0,0
-BRDA:21,163,1,0
-FN:40,System.String Services.ProfileService::GenerateUniqueProfileName()
-FNDA:0,System.String Services.ProfileService::GenerateUniqueProfileName()
-DA:41,0
-DA:42,0
-DA:43,0
-DA:44,0
-DA:46,0
-DA:47,0
-DA:48,0
-DA:50,0
-DA:51,0
-DA:52,0
-DA:53,0
-DA:54,0
-BRDA:46,129,1,0
-BRDA:50,113,0,0
-BRDA:50,113,1,0
-BRDA:46,129,0,0
-FN:56,OneOf.OneOf`2<Models.Profile,Models.ErrorInfo> Services.ProfileService::Get(Services.GetByProfile,System.String)
-FNDA:0,OneOf.OneOf`2<Models.Profile,Models.ErrorInfo> Services.ProfileService::Get(Services.GetByProfile,System.String)
-DA:57,0
-DA:58,0
-DA:60,0
-DA:61,0
-DA:62,0
-DA:64,0
-DA:65,0
-DA:66,0
-DA:68,0
-DA:69,0
-DA:70,0
-DA:71,0
-DA:72,0
-DA:74,0
-DA:75,0
-DA:76,0
-DA:78,0
-DA:79,0
-DA:81,0
-DA:82,0
-DA:84,0
-DA:85,0
-BRDA:60,22,0,0
-BRDA:60,22,1,0
-BRDA:64,217,0,0
-BRDA:64,217,1,0
-BRDA:68,432,0,0
-BRDA:70,470,0,0
-BRDA:70,470,1,0
-BRDA:68,432,1,0
-BRDA:78,696,0,0
-BRDA:78,696,1,0
-BRDA:78,714,0,0
-BRDA:79,743,0,0
-BRDA:79,743,1,0
-BRDA:78,714,1,0
-BRDA:81,842,0,0
-BRDA:81,842,1,0
+FNDA:2,OneOf.OneOf`2<Models.Profile,Models.ErrorInfo> Services.ProfileService::Create(System.String,Models.ProfileCreationInfo)
+DA:18,2
+DA:19,2
+DA:21,2
+DA:22,1
+DA:24,1
+DA:26,1
+DA:27,1
+DA:28,1
+DA:29,1
+DA:30,1
+DA:31,1
+DA:32,1
+DA:34,1
+DA:35,1
+DA:36,1
+DA:38,2
+BRDA:21,157,0,1
+BRDA:21,157,1,1
+FN:40,System.String Services.ProfileService::GenerateProfileName(System.String)
+FNDA:1,System.String Services.ProfileService::GenerateProfileName(System.String)
+DA:41,1
+DA:42,1
+DA:43,1
+DA:44,1
+DA:45,3
+DA:46,2
+DA:47,2
+DA:48,1
+DA:50,2
+DA:51,1
+DA:53,2
+DA:54,2
+DA:55,1
+DA:56,1
+BRDA:45,135,1,2
+BRDA:47,94,0,1
+BRDA:47,94,1,2
+BRDA:50,120,0,1
+BRDA:50,120,1,2
+BRDA:45,135,0,1
+FN:58,OneOf.OneOf`2<Models.Profile,Models.ErrorInfo> Services.ProfileService::Get(Services.GetByProfile,System.String)
+FNDA:9,OneOf.OneOf`2<Models.Profile,Models.ErrorInfo> Services.ProfileService::Get(Services.GetByProfile,System.String)
+DA:59,9
+DA:60,9
+DA:62,9
+DA:63,3
+DA:64,3
+DA:66,6
+DA:67,2
+DA:68,2
+DA:70,4
+DA:71,3
+DA:72,3
+DA:73,1
+DA:74,1
+DA:76,2
+DA:77,2
+DA:78,2
+DA:81,8
+DA:82,4
+DA:83,4
+DA:84,4
+DA:85,1
+DA:86,1
+DA:87,1
+DA:88,1
+DA:89,4
+DA:90,4
+DA:93,4
+DA:94,1
+DA:96,3
+DA:97,8
+BRDA:62,26,0,3
+BRDA:62,26,1,6
+BRDA:66,221,0,2
+BRDA:66,221,1,4
+BRDA:70,436,0,3
+BRDA:72,474,0,1
+BRDA:72,474,1,2
+BRDA:70,436,1,8
+BRDA:81,712,0,4
+BRDA:83,723,3,1
+BRDA:83,723,2,1
+BRDA:83,723,1,1
+BRDA:83,723,0,1
+BRDA:81,712,1,4
+BRDA:93,898,0,1
+BRDA:93,898,1,3
 FN:11,System.Void Services.ProfileService::.ctor(EF.ApplicationContext)
-FNDA:0,System.Void Services.ProfileService::.ctor(EF.ApplicationContext)
-DA:12,0
-DA:13,0
-DA:14,0
-DA:15,0
-LF:54
-LH:0
+FNDA:8,System.Void Services.ProfileService::.ctor(EF.ApplicationContext)
+DA:12,8
+DA:13,8
+DA:14,8
+DA:15,8
+LF:64
+LH:64
 BRF:24
-BRH:0
+BRH:24
 FNF:4
-FNH:0
+FNH:4
 end_of_record
 SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Program.cs
 FN:11,System.Void Src.Program::Main(System.String[])
@@ -2138,29 +2148,29 @@ FNH:0
 end_of_record
 SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\EntityFrameworkCore\Models\Auth.cs
 FN:13,System.Int32 Models.Auth::get_Id()
-FNDA:0,System.Int32 Models.Auth::get_Id()
-DA:14,0
+FNDA:105,System.Int32 Models.Auth::get_Id()
+DA:14,105
 FN:18,System.String Models.Auth::get_Email()
-FNDA:124,System.String Models.Auth::get_Email()
-DA:19,124
+FNDA:208,System.String Models.Auth::get_Email()
+DA:19,208
 FN:23,System.String Models.Auth::get_Password()
-FNDA:68,System.String Models.Auth::get_Password()
-DA:24,68
+FNDA:129,System.String Models.Auth::get_Password()
+DA:24,129
 FN:27,System.Boolean Models.Auth::get_IsAdmin()
-FNDA:44,System.Boolean Models.Auth::get_IsAdmin()
-DA:28,44
+FNDA:105,System.Boolean Models.Auth::get_IsAdmin()
+DA:28,105
 FN:29,System.Void Models.Auth::.ctor()
-FNDA:141,System.Void Models.Auth::.ctor()
-DA:30,141
+FNDA:324,System.Void Models.Auth::.ctor()
+DA:30,324
 FN:31,System.Void Models.Auth::.ctor(System.String,System.String,System.Boolean)
 FNDA:0,System.Void Models.Auth::.ctor(System.String,System.String,System.Boolean)
 DA:32,0
 LF:6
-LH:4
+LH:5
 BRF:0
 BRH:0
 FNF:6
-FNH:4
+FNH:5
 end_of_record
 SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\EntityFrameworkCore\Models\Chat.cs
 FN:13,System.Int32 Models.Chat::get_Id()
@@ -2251,35 +2261,35 @@ FNH:0
 end_of_record
 SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\EntityFrameworkCore\Models\Profile.cs
 FN:14,System.Int32 Models.Profile::get_Id()
-FNDA:0,System.Int32 Models.Profile::get_Id()
-DA:15,0
+FNDA:20,System.Int32 Models.Profile::get_Id()
+DA:15,20
 FN:16,System.Int32 Models.Profile::get_AuthId()
-FNDA:0,System.Int32 Models.Profile::get_AuthId()
-DA:17,0
+FNDA:16,System.Int32 Models.Profile::get_AuthId()
+DA:17,16
 FN:21,Models.Auth Models.Profile::get_Auth()
-FNDA:0,Models.Auth Models.Profile::get_Auth()
-DA:22,0
+FNDA:24,Models.Auth Models.Profile::get_Auth()
+DA:22,24
 FN:26,System.String Models.Profile::get_ProfileName()
-FNDA:0,System.String Models.Profile::get_ProfileName()
-DA:27,0
+FNDA:26,System.String Models.Profile::get_ProfileName()
+DA:27,26
 FN:31,System.String Models.Profile::get_FirstName()
-FNDA:0,System.String Models.Profile::get_FirstName()
-DA:32,0
+FNDA:17,System.String Models.Profile::get_FirstName()
+DA:32,17
 FN:36,System.String Models.Profile::get_LastName()
-FNDA:0,System.String Models.Profile::get_LastName()
-DA:37,0
+FNDA:17,System.String Models.Profile::get_LastName()
+DA:37,17
 FN:40,System.String Models.Profile::get_Nickname()
-FNDA:0,System.String Models.Profile::get_Nickname()
-DA:41,0
+FNDA:16,System.String Models.Profile::get_Nickname()
+DA:41,16
 FN:42,System.Void Models.Profile::.ctor()
-FNDA:0,System.Void Models.Profile::.ctor()
-DA:43,0
+FNDA:51,System.Void Models.Profile::.ctor()
+DA:43,51
 LF:8
-LH:0
+LH:8
 BRF:0
 BRH:0
 FNF:8
-FNH:0
+FNH:8
 end_of_record
 SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\EntityFrameworkCore\Models\Subscribers.cs
 FN:13,System.Int32 Models.Subscription::get_Id()
@@ -2309,30 +2319,30 @@ FNH:0
 end_of_record
 SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Models\ErrorInfo.cs
 FN:4,System.String Models.ErrorInfo::get_Type()
-FNDA:15,System.String Models.ErrorInfo::get_Type()
-DA:5,15
+FNDA:21,System.String Models.ErrorInfo::get_Type()
+DA:5,21
 FN:5,System.String Models.ErrorInfo::get_Message()
-FNDA:15,System.String Models.ErrorInfo::get_Message()
-DA:6,15
+FNDA:21,System.String Models.ErrorInfo::get_Message()
+DA:6,21
 FN:13,System.String Models.ErrorInfo::ToString()
 FNDA:0,System.String Models.ErrorInfo::ToString()
 DA:14,0
 FN:6,System.Void Models.ErrorInfo::.ctor(System.String,System.String)
-FNDA:15,System.Void Models.ErrorInfo::.ctor(System.String,System.String)
-DA:7,15
-DA:8,15
-DA:9,15
+FNDA:21,System.Void Models.ErrorInfo::.ctor(System.String,System.String)
+DA:7,21
+DA:8,21
+DA:9,21
 FN:10,System.Void Models.ErrorInfo::.ctor(System.Exception)
 FNDA:0,System.Void Models.ErrorInfo::.ctor(System.Exception)
 DA:11,0
 DA:12,0
 FN:17,System.Collections.Generic.List`1<T> Models.ErrorInfo`1::get_AdditionalInfo()
-FNDA:4,System.Collections.Generic.List`1<T> Models.ErrorInfo`1::get_AdditionalInfo()
-DA:18,4
+FNDA:5,System.Collections.Generic.List`1<T> Models.ErrorInfo`1::get_AdditionalInfo()
+DA:18,5
 FN:20,System.Void Models.ErrorInfo`1::.ctor(System.String,System.String,System.Collections.Generic.List`1<T>)
-FNDA:4,System.Void Models.ErrorInfo`1::.ctor(System.String,System.String,System.Collections.Generic.List`1<T>)
-DA:21,4
-DA:22,4
+FNDA:5,System.Void Models.ErrorInfo`1::.ctor(System.String,System.String,System.Collections.Generic.List`1<T>)
+DA:21,5
+DA:22,5
 LF:11
 LH:8
 BRF:0
@@ -2342,27 +2352,23 @@ FNH:5
 end_of_record
 SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Models\ProfileCreationInfo.cs
 FN:4,System.String Models.ProfileCreationInfo::get_ProfileName()
-FNDA:0,System.String Models.ProfileCreationInfo::get_ProfileName()
-DA:5,0
+FNDA:3,System.String Models.ProfileCreationInfo::get_ProfileName()
+DA:5,3
 FN:5,System.String Models.ProfileCreationInfo::get_FirstName()
-FNDA:0,System.String Models.ProfileCreationInfo::get_FirstName()
-DA:6,0
+FNDA:3,System.String Models.ProfileCreationInfo::get_FirstName()
+DA:6,3
 FN:6,System.String Models.ProfileCreationInfo::get_LastName()
-FNDA:0,System.String Models.ProfileCreationInfo::get_LastName()
-DA:7,0
-FN:7,System.Void Models.ProfileCreationInfo::.ctor(System.String,System.String,System.String)
-FNDA:0,System.Void Models.ProfileCreationInfo::.ctor(System.String,System.String,System.String)
-DA:8,0
-DA:9,0
-DA:10,0
-DA:11,0
-DA:12,0
-LF:8
-LH:0
+FNDA:3,System.String Models.ProfileCreationInfo::get_LastName()
+DA:7,3
+FN:7,System.Void Models.ProfileCreationInfo::.ctor()
+FNDA:6,System.Void Models.ProfileCreationInfo::.ctor()
+DA:8,6
+LF:4
+LH:4
 BRF:0
 BRH:0
 FNF:4
-FNH:0
+FNH:4
 end_of_record
 SF:c:\Repositories\ASP.NET\SocialNetworkWebAPI\src\Models\ProfileModifyInfo.cs
 FN:4,System.String Models.ProfileModifyInfo::get_ProfileName()
@@ -2408,8 +2414,8 @@ FN:9,Microsoft.EntityFrameworkCore.DbSet`1<Models.Subscription> EF.ApplicationCo
 FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<Models.Subscription> EF.ApplicationContext::get_Subscriptions()
 DA:10,0
 FN:13,System.Void EF.ApplicationContext::.ctor()
-FNDA:42,System.Void EF.ApplicationContext::.ctor()
-DA:14,42
+FNDA:66,System.Void EF.ApplicationContext::.ctor()
+DA:14,66
 FN:15,System.Void EF.ApplicationContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<EF.ApplicationContext>)
 FNDA:0,System.Void EF.ApplicationContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<EF.ApplicationContext>)
 DA:16,0

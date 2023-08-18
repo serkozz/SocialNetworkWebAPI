@@ -18,7 +18,7 @@ public class ProfileService
     {
         var existingProfilesByEmail = Db.Profiles.Where(profile => profile.Auth.Email == email);
 
-        if (existingProfilesByEmail is not null && existingProfilesByEmail.Any())
+        if (existingProfilesByEmail.Any())
             return new ErrorInfo($@"Profile for email '{email}' is already registered");
 
         var authInfo = Db.Auth.First(authInfo => authInfo.Email == email);
@@ -26,7 +26,7 @@ public class ProfileService
         var profile = new Profile()
         {
             Auth = authInfo,
-            ProfileName = GenerateUniqueProfileName(),
+            ProfileName = GenerateProfileName(profileCreationInfo.ProfileName),
             FirstName = profileCreationInfo.FirstName,
             LastName = profileCreationInfo.LastName,
         };
@@ -37,25 +37,27 @@ public class ProfileService
 
     }
 
-    private string GenerateUniqueProfileName()
+    private string GenerateProfileName(string profileName = "")
     {
         bool uniqueGenerated = false;
-        string profileName = string.Empty;
+        bool userSelectedProfileNameAlreadyExists = false;
         var existingProfileNames = Db.Profiles.Select(profile => profile.ProfileName);
-
         while (!uniqueGenerated)
         {
-            profileName = string.Empty.RandomString(9);
+            if (string.IsNullOrEmpty(profileName) || userSelectedProfileNameAlreadyExists)
+                profileName = profileName.RandomString(9);
 
             if (!existingProfileNames.Contains(profileName))
-                uniqueGenerated = !uniqueGenerated;
+                uniqueGenerated = true;
+
+            userSelectedProfileNameAlreadyExists = true;
         }
         return profileName;
     }
 
     public OneOf<Profile, ErrorInfo> Get(GetByProfile by, string value)
     {
-        List<Profile>? existingProfile = null;
+        List<Profile> existingProfile = new();
 
         if (by == GetByProfile.ProfileName)
             existingProfile = Db.Profiles.Where(profile => profile.ProfileName == value)
@@ -75,8 +77,18 @@ public class ProfileService
                 .Include(p => p.Auth).ToList();
         }
 
-        if (existingProfile is null || !existingProfile.Any())
-            return new ErrorInfo($@"Profile with {(by == GetByProfile.Email ? "email" : "name")} '{value} was not found'");
+
+        if (!existingProfile.Any())
+        {
+            var str = by switch
+            {
+                GetByProfile.ProfileName => "name",
+                GetByProfile.Email => "email",
+                GetByProfile.Id => "id",
+                _ => "UNKNOWN"
+            };
+            return new ErrorInfo($@"Profile with {str} '{value} was not found'");
+        }
 
         if (existingProfile.Count() > 1)
             throw new ProfileNameDuplicateFoundException(value);
@@ -89,5 +101,6 @@ public enum GetByProfile
 {
     Id,
     Email,
-    ProfileName
+    ProfileName,
+    CASE_FOR_TESTING_ONLY_DONT_USE_IT
 }

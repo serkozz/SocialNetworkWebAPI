@@ -13,16 +13,16 @@ public class AuthServiceTesting
     {
         // Arrange
         var mockContext = new Mock<ApplicationContext>();
-        mockContext.Setup(c => c.Auth).ReturnsDbSet(AuthServiceTestDataHelper.GetDistinctAuthData());
+        mockContext.Setup(c => c.Auth).ReturnsDbSet(AuthTestDataHelper.GetDistinctAuthData());
         var authUser = new Auth()
         {
-            Email = "example@mail.ru",
+            Email = "newexample@mail.ru",
             Password = "TestPassword_2"
         };
 
         var authAdmin = new Auth()
         {
-            Email = "example@mail.ru",
+            Email = "newexample@mail.ru",
             Password = "TestPassword_2",
             IsAdmin = true
         };
@@ -46,7 +46,7 @@ public class AuthServiceTesting
     {
         // Arrange
         var mockContext = new Mock<ApplicationContext>();
-        var authDataList = AuthServiceTestDataHelper.GetDistinctAuthData();
+        var authDataList = AuthTestDataHelper.GetDistinctAuthData();
         mockContext.Setup(c => c.Auth).ReturnsDbSet(authDataList);
         var auth = authDataList.First();
 
@@ -64,7 +64,7 @@ public class AuthServiceTesting
 
         // Arrange
         var mockContext = new Mock<ApplicationContext>();
-        var authDataList = AuthServiceTestDataHelper.GetDistinctAuthData();
+        var authDataList = AuthTestDataHelper.GetDistinctAuthData();
         mockContext.Setup(c => c.Auth).ReturnsDbSet(authDataList);
         var auth = new Auth()
         {
@@ -85,7 +85,7 @@ public class AuthServiceTesting
     {
         // Arrange
         var mockContext = new Mock<ApplicationContext>();
-        var authDataList = AuthServiceTestDataHelper.GetDistinctAuthData();
+        var authDataList = AuthTestDataHelper.GetDistinctAuthData();
         mockContext.Setup(c => c.Auth).ReturnsDbSet(authDataList);
         var shortPasswordAuth = new Auth()
         {
@@ -130,7 +130,7 @@ public class AuthServiceTesting
     {
         // Arrange
         var mockContext = new Mock<ApplicationContext>();
-        var authDataList = AuthServiceTestDataHelper.GetDistinctAuthData();
+        var authDataList = AuthTestDataHelper.GetDistinctAuthData();
         mockContext.Setup(c => c.Auth).ReturnsDbSet(authDataList);
         var auth = new Auth()
         {
@@ -154,7 +154,7 @@ public class AuthServiceTesting
     {
         // Arrange
         var mockContext = new Mock<ApplicationContext>();
-        var authDataList = AuthServiceTestDataHelper.GetDistinctAuthData();
+        var authDataList = AuthTestDataHelper.GetDistinctAuthData();
         mockContext.Setup(c => c.Auth).ReturnsDbSet(authDataList);
         var authUser = new Auth()
         {
@@ -186,7 +186,7 @@ public class AuthServiceTesting
     {
         // Arrange
         var mockContext = new Mock<ApplicationContext>();
-        var authDataList = AuthServiceTestDataHelper.GetDistinctAuthData();
+        var authDataList = AuthTestDataHelper.GetDistinctAuthData();
         mockContext.Setup(c => c.Auth).ReturnsDbSet(authDataList);
         var auth = new Auth()
         {
@@ -210,7 +210,7 @@ public class AuthServiceTesting
     {
         // Arrange
         var mockContext = new Mock<ApplicationContext>();
-        var authDataList = AuthServiceTestDataHelper.GetDistinctAuthData();
+        var authDataList = AuthTestDataHelper.GetDistinctAuthData();
         mockContext.Setup(c => c.Auth).ReturnsDbSet(authDataList);
         var auth = new Auth()
         {
@@ -234,7 +234,7 @@ public class AuthServiceTesting
     {
         // Arrange
         var mockContext = new Mock<ApplicationContext>();
-        var authDataList = AuthServiceTestDataHelper.GetDuplicatedEmailsAuthData();
+        var authDataList = AuthTestDataHelper.GetDuplicatedEmailsAuthData();
         mockContext.Setup(c => c.Auth).ReturnsDbSet(authDataList);
         var auth = new Auth()
         {
